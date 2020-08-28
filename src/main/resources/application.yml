@@ -12,7 +12,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/security?serverTimezone=Asia/Seoul
     username: cos
-    password: 1234
+    password: cos1234
 
   jpa:
     hibernate:
@@ -26,8 +26,8 @@ spring:
       client:
         registration:
           google:
-            client-id:
-            client-secret: 
+            client-id: 781775637550-q7judapl9idvlph5j3i7h8r7bg437ldg.apps.googleusercontent.com
+            client-secret: JetX0lw3DayfQmaXtvj15u7w
             scope:
               - email
               - profile
